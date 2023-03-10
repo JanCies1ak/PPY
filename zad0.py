@@ -2,10 +2,11 @@ import webbrowser
 
 import requests
 
-pageurl = "http://github.com"
-date1 = 2012810
-date2 = 2017810
-date3 = 2008810
+pageurl = input("Podaj url")
+
+date1 = input("Podaj date nr1 np: 20230228")
+date2 = input("Podaj date nr2 np: 20230228")
+date3 = input("Podaj date nr3 np: 20230228")
 
 url1 ="http://archive.org/wayback/available?url="+pageurl+"&timestamp="+str(date1)
 url2 ="http://archive.org/wayback/available?url="+pageurl+"&timestamp="+str(date2)
