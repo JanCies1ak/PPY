@@ -2,11 +2,11 @@ import webbrowser
 
 import requests
 
-pageurl = input("Podaj url")
+pageurl = input("Podaj url: ")
 
-date1 = input("Podaj date nr1 np: 20230228")
-date2 = input("Podaj date nr2 np: 20230228")
-date3 = input("Podaj date nr3 np: 20230228")
+date1 = input("Podaj date w formacie yyyyMMdd nr1 np: 20230228: ")
+date2 = input("Podaj date w formacie yyyyMMdd nr2 np: 20230228: ")
+date3 = input("Podaj date w formacie yyyyMMdd nr3 np: 20230228: ")
 
 url1 ="http://archive.org/wayback/available?url="+pageurl+"&timestamp="+str(date1)
 url2 ="http://archive.org/wayback/available?url="+pageurl+"&timestamp="+str(date2)
