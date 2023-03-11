@@ -1,0 +1,6 @@
+Głowna różnica między python i java jest w tym, że java
+cały kod źródłowy od początku do końca tłumaczy na bytecode,
+a python tłumaczy kod linie po linii.
+
+To znaczy, że java nie uruchomi niepoprawny kod, a python
+wysypie się tylko w momencie, gdy wpadnie na błąd.
